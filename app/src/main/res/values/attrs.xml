@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="my_steps_view">
+        <attr name="down_triangle_color" format="color|reference" />
+        <attr name="text_size" format="dimension"/>
+        <attr name="split_line_width" format="dimension"/>
+        <attr name="text_color" format="color"/>
+    </declare-styleable>
+</resources>

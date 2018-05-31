@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <test.srz.com.testbar.view.MyStepsView
+            android:id="@+id/step_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            app:down_triangle_color="#ffffffff"
+            app:split_line_width="30dp"
+            app:text_color="#33000000"
+            app:text_size="10sp"
+            ></test.srz.com.testbar.view.MyStepsView>
+
+        <FrameLayout
+            android:id="@+id/wrapperFl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></FrameLayout>
+    </FrameLayout>
+
+    <test.srz.com.testbar.view.ObservableScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/containerLl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </test.srz.com.testbar.view.ObservableScrollView>
+
+
+
+</LinearLayout>
